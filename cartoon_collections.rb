@@ -15,7 +15,7 @@ end
 def find_the_cheese(food)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food & cheese_types
+  (food & cheese_types).inspect
 #  food.find do |item|
 #    item == cheese_types.each {|cheese| cheese}
 #  end
